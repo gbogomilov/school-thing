@@ -1,0 +1,58 @@
+.contantForm {
+  width: 50%;
+  height: 75%;
+  background-color: #ffe5c3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.452));
+  padding: 1rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  margin-top: 0.5rem;
+  margin-bottom: 3rem;
+  width: 30%;
+  height: 2rem;
+  border: none;
+}
+@media (max-width: 768px) {
+  .contantForm {
+    width: 85%;
+  }
+  input {
+    width: 50%;
+  }
+}
+button {
+  margin-top: 3rem;
+  width: 50%;
+  height: 3rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: white;
+}
+textarea {
+  margin-top: 0.5rem;
+  width: 50%;
+  height: 25%;
+  border: none;
+  resize: none;
+}
+button:hover {
+  color: white;
+  background-color: black;
+  transition: all 0.25s ease;
+}
+h1 {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
