@@ -45,7 +45,6 @@ textarea {
   width: 50%;
   height: 25%;
   border: none;
-  resize: none;
 }
 button:hover {
   color: white;
