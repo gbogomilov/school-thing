@@ -11,13 +11,13 @@
   border-radius: 1rem;
   margin-top: 1rem;
   padding: 1rem;
-  width: 25rem;
-  height: 20rem;
+  width: 45%;
   background-color: #ffe5c3;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.452));
   position: relative;
 }
 .author {
+  font-weight: 600;
   display: flex;
   justify-content: flex-end;
   bottom: 0;
