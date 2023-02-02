@@ -7,3 +7,4 @@ for (let i = 0; i <= pictureCount; i++) {
       `<img src="https://picsum.photos/300?dummy=${Math.random()}" alt="">`
     );
 }
+console.log('ivakas');
